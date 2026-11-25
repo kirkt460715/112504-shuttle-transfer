@@ -26,5 +26,19 @@
       "state": "held"
     },
     "outcome": "success"
+  },
+  {
+    "operation": "boarding",
+    "request": {
+      "carrier": "local-a",
+      "leg": "A1",
+      "scan": "age-31"
+    },
+    "reply": {
+      "passenger": "p-21",
+      "physical_space": "bay-1",
+      "state": "boarded"
+    },
+    "outcome": "success"
   }
 ]
