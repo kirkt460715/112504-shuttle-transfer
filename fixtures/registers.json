@@ -1,0 +1,86 @@
+{
+  "passengers": [
+    "p-21",
+    "p-22"
+  ],
+  "party": {
+    "id": "group-3",
+    "wheelchair": [
+      "p-21"
+    ],
+    "escort": "p-22",
+    "may_split": false
+  },
+  "original": {
+    "ticket": "old-2",
+    "leg": "mountain-direct",
+    "status": "suspended"
+  },
+  "legs": [
+    {
+      "id": "A1",
+      "arrives": "2028-07-03T10:35:00+08:00",
+      "delay_min": 14
+    },
+    {
+      "id": "B1",
+      "boarding_cutoff": "2028-07-03T10:42:00+08:00",
+      "physical_space": [
+        "bay-4",
+        "seat-8"
+      ],
+      "shared": {
+        "bay-4": [
+          "seat-5",
+          "seat-6"
+        ]
+      }
+    },
+    {
+      "id": "B2",
+      "boarding_cutoff": "2028-07-03T11:30:00+08:00",
+      "physical_space": [
+        "bay-7",
+        "seat-18"
+      ]
+    }
+  ],
+  "filled": [
+    "B1:seat-5"
+  ],
+  "boarding": {
+    "passenger": "p-21",
+    "leg": "A1",
+    "scan": "age-31"
+  },
+  "candidate_itineraries": {
+    "original-substitute": [
+      "A1",
+      "B1"
+    ],
+    "late-substitute": [
+      "A1",
+      "B2"
+    ]
+  },
+  "party_consent": [
+    {
+      "party": "group-3",
+      "at": "2028-07-03T09:58:00+08:00",
+      "split_allowed": false
+    }
+  ],
+  "capacity_events": [
+    {
+      "leg": "B1",
+      "space": "seat-5",
+      "reason": "cancelled",
+      "at": "2028-07-03T10:04:00+08:00"
+    }
+  ],
+  "carrier_by_leg": {
+    "A1": "local-a",
+    "B1": "local-b",
+    "B2": "local-b"
+  }
+}

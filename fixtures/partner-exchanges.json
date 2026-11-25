@@ -1,0 +1,30 @@
+[
+  {
+    "operation": "hold",
+    "request": {
+      "carrier": "local-b",
+      "leg": "B2",
+      "space": "bay-7",
+      "passenger": "p-21"
+    },
+    "reply": {
+      "remote_hold": "hold-81",
+      "state": "held"
+    },
+    "outcome": "commit_disconnect"
+  },
+  {
+    "operation": "hold",
+    "request": {
+      "carrier": "local-b",
+      "leg": "B2",
+      "space": "seat-18",
+      "passenger": "p-22"
+    },
+    "reply": {
+      "remote_hold": "hold-82",
+      "state": "held"
+    },
+    "outcome": "success"
+  }
+]
